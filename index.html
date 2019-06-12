@@ -22,6 +22,13 @@ div.btnbg {
     left:0;
     top:0;
 }
+@media all and (min-width:370px) and (max-width:768px){
+	div.btnbg{margin-top: 45%;}
+}
+@media all and (min-width:769px){
+	div.btnbg{margin-top: 11%;}
+}
+
 </style>
 <body>
 <canvas id="sakura"></canvas>
@@ -29,7 +36,7 @@ div.btnbg {
 	
 	<div class="container-fluid">
 		<div class="row ">
-			<div class="col-md-6 col-md-push-3 "style="opacity: 0.6; padding: 31px;margin-top: 11%;">
+			<div class="col-md-6 col-sm-7 col-md-push-3 col-sm-push-3 "style="opacity: 0.6; padding: 31px;">
 				<form action="http://caup.cn/search?q=" target="_blank">
 					<div class="input-group input-group-lg">
 					  <input type="text" class="form-control" name="q" placeholder="为小众而搜索">
@@ -41,7 +48,7 @@ div.btnbg {
 			</div>
 		</div>
 		<div class="row ">
-			<div class="col-md-6 col-md-push-3" style="font-size: 2.3rem;text-align: center;line-height: 50px;word-break: normal;margin: 0; padding: 15px 50px;color: #FFFFFF;margin-top: 5%;">
+			<div class="col-md-6 col-sm-7 col-md-push-3 col-sm-push-3" style="font-size: 2.3rem;text-align: center;line-height: 50px;word-break: normal;margin: 0; padding: 15px 50px;color: #FFFFFF;margin-top: 5%;">
 				<div>
 					<div style="position: absolute;left: 0;top: 0;">『</div>
 					<p class="hitokoto"></p>
@@ -52,7 +59,7 @@ div.btnbg {
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 col-md-push-2" style="    font-size: 20px;color: rgba(255, 255, 255, 0.8);float: right;margin-top: 40px;">
+			<div class="col-md-6 col-sm-7 col-md-push-2 col-md-push-3" style="    font-size: 20px;color: rgba(255, 255, 255, 0.8);float: right;margin-top: 40px;">
 				<p class="from"></p>
 			</div>
 		</div>
